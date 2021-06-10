@@ -26,15 +26,17 @@ Natural
 
 Symbol | Description | Additional Note
 --- | --- | ---
-∪ | Union | (OR)
-∩ | Intersection | (AND)
-' | Complement | (NOT)
+∪ | Union | OR
+∩ | Intersection | AND
+' | Complement | NOT
 \- | Set Difference | 
-⊕ | Symmetric Difference
+⊕ | Symmetric Difference | XOR
 ⊂ | Proper Subset
 ⊆ | Subset
 ⊇ | Proper Superset
 ⊃ | Superset
+∈ | Element of 
+∉ | Not an element of
 
 These will be explained below. 
 
