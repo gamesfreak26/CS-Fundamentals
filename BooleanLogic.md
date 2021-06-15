@@ -10,6 +10,8 @@ T | F
 --- | ---
 1 | 0
 
+_______
+
 # NOT relation and operators
 
 Unary boolean relation (it's unary as it is evaluated on one expression instead of two)
@@ -24,6 +26,8 @@ Gives the opposite of the value given
 - ¬
 - ˜
 - !
+
+_______
 
 # AND relation and operators
 
@@ -46,6 +50,8 @@ T | T | T
 - ·
 - &
 
+_______
+
 # OR relation and operators
 
 The only time an OR is false is when both values are false
@@ -66,6 +72,8 @@ T | T | T
 - ∨
 - \+
 - ∥
+
+_______
 
 # XOR relation and operators
 
@@ -89,21 +97,7 @@ T | T | F
 - ⊕
 - ⊻
 
-# Implication 
-
-If p is TRUE, then q is TRUE.  It is **only false** when p is true and q is false.
-
-p | q | p → q
---- | --- | ---
-F | F | T
-F | T | T
-T | F | F
-T | T | T
-
-### Symbols that denote IMPLICATION
-- ⇒
-- →
-
+_______
 
 # Implication 
 
@@ -119,3 +113,51 @@ T | T | T
 ### Symbols that denote IMPLICATION
 - ⇒
 - →
+
+# Equivalence 
+
+q is true if and only if p is true.  Opposite of a Exclusive OR (XOR).  p and q have to be the same. 
+
+p | q | p ↔ q
+--- | --- | ---
+F | F | T
+F | T | F
+T | F | F
+T | T | T
+
+### Symbols that denote EQUIVALENCE
+
+- ⇔
+- ≡
+- ↔
+
+_______
+
+# Bitwise Operations
+
+We can apply logical operations to a series of bits (binary numbers)
+
+1100110 AND 111010
+
+![Screenshot 2021-06-16 085342](https://user-images.githubusercontent.com/3919875/122133601-63c62d80-ce80-11eb-95a7-303b3846a74b.png)
+
+1100110 OR 111010
+
+![Screenshot 2021-06-16 085342](https://user-images.githubusercontent.com/3919875/122133733-9ec86100-ce80-11eb-889e-31fea36e83a6.png)
+
+1100110 XOR 111010
+
+![Screenshot 2021-06-16 085342](https://user-images.githubusercontent.com/3919875/122133858-d9ca9480-ce80-11eb-8fbb-209c5f890a44.png)
+
+32 XOR 17
+
+1. Convert to Binary
+
+![Screenshot 2021-06-16 093815](https://user-images.githubusercontent.com/3919875/122137264-932c6880-ce87-11eb-97bf-e510779973c4.png)
+
+
+![Screenshot 2021-06-16 093126](https://user-images.githubusercontent.com/3919875/122136374-b6eeaf00-ce85-11eb-90d0-4ed38cbcd379.png)
+
+
+1. XOR
+1. Convert back to Decimal
