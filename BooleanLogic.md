@@ -43,7 +43,7 @@ T | T | T
 ### Symbols that denote AND
 
 - ∧
-- .
+- ·
 - &
 
 # OR relation and operators
@@ -64,7 +64,7 @@ T | T | T
 ### Symbols that denote OR
 
 - ∨
-- +
+- \+
 - ∥
 
 # XOR relation and operators
