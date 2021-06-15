@@ -159,7 +159,7 @@ We can apply logical operations to a series of bits (binary numbers)
 ![Screenshot 2021-06-16 093126](https://user-images.githubusercontent.com/3919875/122136374-b6eeaf00-ce85-11eb-90d0-4ed38cbcd379.png)
 
 
-1. XOR
+2. XOR
 
 ![Screenshot 2021-06-16 095036](https://user-images.githubusercontent.com/3919875/122137621-66c51c00-ce88-11eb-9d4c-4a237f1f7d16.png)
 
