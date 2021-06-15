@@ -4,6 +4,12 @@
 - Used to break down complex problems.
 - Boolean Values may be expressed as TRUE or FALSE, or 1 and 0, respectively.
 
+### Legend
+
+T | F
+--- | ---
+1 | 0
+
 # NOT relation and operators
 
 Unary boolean relation (it's unary as it is evaluated on one expression instead of two)
@@ -22,12 +28,6 @@ Gives the opposite of the value given
 # AND relation and operators
 
 Both values must be true for AND to evaluate to true
-
-### Legend
-
-T | F
---- | ---
-1 | 0
 
 ### AND TABLE
 
@@ -48,11 +48,7 @@ T | T | T
 
 # OR relation and operators
 
-### Legend
-
-T | F
---- | ---
-1 | 0
+The only time an OR is false is when both values are false
 
 ### OR TABLE
 
@@ -73,11 +69,9 @@ T | T | T
 
 # XOR relation and operators
 
-### Legend
+Exclusive OR.  Both values can't be ( TRUE and TRUE ) or ( FALSE and FALSE ) at the same time.
 
-T | F
---- | ---
-1 | 0
+Another way of writing this is: A ⊕ B = ( A ∨ B ) ∧ !( A ∧ B )
 
 ### XOR TABLE
 
@@ -94,6 +88,22 @@ T | T | F
 
 - ⊕
 - ⊻
+
+# Implication 
+
+If p is TRUE, then q is TRUE.  It is **only false** when p is true and q is false.
+
+p | q | p → q
+--- | --- | ---
+F | F | T
+F | T | T
+T | F | F
+T | T | T
+
+### Symbols that denote IMPLICATION
+- ⇒
+- →
+
 
 # Implication 
 
