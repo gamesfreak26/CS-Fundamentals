@@ -160,4 +160,9 @@ We can apply logical operations to a series of bits (binary numbers)
 
 
 1. XOR
-1. Convert back to Decimal
+
+![Screenshot 2021-06-16 095036](https://user-images.githubusercontent.com/3919875/122137621-66c51c00-ce88-11eb-9d4c-4a237f1f7d16.png)
+
+3. Convert back to Decimal
+
+![Screenshot 2021-06-16 095338](https://user-images.githubusercontent.com/3919875/122137782-c6bbc280-ce88-11eb-86ac-0efc8ec6047c.png)
