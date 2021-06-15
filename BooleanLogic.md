@@ -46,3 +46,66 @@ T | T | T
 - ·
 - &
 
+# OR relation and operators
+
+### Legend
+
+T | F
+--- | ---
+1 | 0
+
+### OR TABLE
+
+Note: In the videos, the table is upside down.
+
+A | B | A ∨ B
+--- | --- | ---
+F | F | F
+F | T | T
+T | F | T
+T | T | T
+
+### Symbols that denote OR
+
+- ∨
+- +
+- ∥
+
+# XOR relation and operators
+
+### Legend
+
+T | F
+--- | ---
+1 | 0
+
+### XOR TABLE
+
+Note: In the videos, the table is upside down.
+
+A | B | A ⊕ B
+--- | --- | ---
+F | F | F
+F | T | T
+T | F | T
+T | T | F
+
+### Symbols that denote XOR
+
+- ⊕
+- ⊻
+
+# Implication 
+
+If p is TRUE, then q is TRUE.  It is **only false** when p is true and q is false.
+
+p | q | p → q
+--- | --- | ---
+F | F | T
+F | T | T
+T | F | F
+T | T | T
+
+### Symbols that denote IMPLICATION
+- ⇒
+- →
