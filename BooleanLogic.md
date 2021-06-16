@@ -44,6 +44,15 @@ F | T | F
 T | F | F
 T | T | T
 
+In binary
+
+A | B | A ∧ B
+--- | --- | ---
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
+
 ### Symbols that denote AND
 
 - ∧
@@ -66,6 +75,13 @@ F | F | F
 F | T | T
 T | F | T
 T | T | T
+
+A | B | A ∨ B
+--- | --- | ---
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 1
 
 ### Symbols that denote OR
 
@@ -91,6 +107,13 @@ F | F | F
 F | T | T
 T | F | T
 T | T | F
+
+A | B | A ∧ B
+--- | --- | ---
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
 
 ### Symbols that denote XOR
 
@@ -166,3 +189,25 @@ We can apply logical operations to a series of bits (binary numbers)
 3. Convert back to Decimal
 
 ![Screenshot 2021-06-16 095338](https://user-images.githubusercontent.com/3919875/122137782-c6bbc280-ce88-11eb-86ac-0efc8ec6047c.png)
+
+_______
+
+# Logic Statements - Writing in symbolic form
+
+Syntax used to express logic statements with a combination of symbols and logical operators.  
+
+- Symbols represent statements that evaluate to TRUE
+- Operators used include AND, OR, NOT, XOR (and any symbols we use to represent those)
+- Not a if / else statement - it's more general
+
+d: Dinner includes soup
+s: Dinner includes salad
+v: Dinner includes vegetables
+
+Dinner consists of soup and sald or vegetables
+
+d ∧ (s ∨ v)
+
+Dinner consists of soup or salad and vegetables
+
+d ∨ (s ∧ v)
