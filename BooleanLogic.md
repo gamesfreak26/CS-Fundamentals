@@ -201,7 +201,9 @@ Syntax used to express logic statements with a combination of symbols and logica
 - Not a if / else statement - it's more general
 
 d: Dinner includes soup
+
 s: Dinner includes salad
+
 v: Dinner includes vegetables
 
 Dinner consists of soup and sald or vegetables
