@@ -50,4 +50,85 @@ These will be explained below.
 - Superset - one set contains another set 
 - Proper Superset - one set contains another set and contains more than that subset (they are not equal)
 
-## Notations for Sets
+## Combining Sets - Union, ∪
+
+Contains all elements that appear in either set (OR)
+
+A = { 1, 2, 3, 4 }
+
+B = { 3, 4, 5, 6 }
+
+A ∪ B = { 1, 2, 3, 4, 5, 6 }
+
+## Combining Sets - Intersection, ∩
+
+Contains the elements that appear in both sets (AND)
+
+A = { 1, 2, 3, 4 }
+
+A = { 3, 4, 5, 6 }
+
+A ∩ B = { 3, 4 }
+
+## Combining Sets - Complement, ' 
+
+Elements in the domain that are in the domain and not in the set (NOT)
+
+Domain: All natural numbers < 10
+
+A = { 1, 2, 3, 4 }
+
+B = { 3, 4, 5, 6 }
+
+( A ∪ B)' = { 7, 8, 9 }
+
+A' = { 5, 6, 7, 8, 9 }
+
+B' = { 1, 2, 7, 8, 9 }
+
+## Combining Sets - Difference, A - B  or A \ B
+
+All elements in one set that are not in another set
+
+A = { 1, 2, 3, 4 }
+
+B = { 3, 4, 5, 6 }
+
+A - B = { 1, 2 }
+
+B - A = { 5, 6 }
+
+## Combining Sets - Symmetric Differience (XOR), ⊕
+
+All elements that are in either set but not in both (exclusive or)
+
+A = { 1, 2, 3, 4 }
+
+B = { 3, 4, 5, 6 }
+
+A ⊕ B = { 1, 2, 5, 6 }
+
+A ⊕ B = ( A - B ) U ( B - A )
+
+Can also be expressed as: `A ⊕ B = ( A U B ) - ( A ∩ B)`
+
+## Examples
+
+Example 1
+
+`A = { x | x ∈ N, x < 5 }`   --> x such that x is an element of N and x < 5
+
+    = `{ 1, 2, 3, 4 }`
+
+
+Example 2
+
+`A = { x | x ∈ Z, -3 < x < 3 }` = `{ -2, -1, 0, 1, 2 }`
+
+Example 3
+
+`A = { 1, 2, 3 }`          
+
+`B = { x | x ∈ N, x < 10, x ∉ A }`
+
+`B = { 4, 5, 6, 7, 8, 9 }`
